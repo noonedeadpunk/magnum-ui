@@ -153,7 +153,7 @@
 
             // Remove leading and trailing whitespaces & convert to l-case
             var labelKey = pairsList[0].trim().toLowerCase();
-            var labelValue = pairsList[1].trim().toLowerCase();
+            var labelValue = pairsList[1].trim();
 
             if (labelValue) {
               // Only override existing label values if user override flag is true
